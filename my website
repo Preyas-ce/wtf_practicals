@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aether Dynamics | Next-Gen Electric Mobility</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="logo">
+      <span class="logo-icon">&#9670;</span>
+      <span class="logo-text">AETHER <strong>DYNAMICS</strong></span>
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#fleet">Fleet</a></li>
+        <li><a href="#technology">Technology</a></li>
+        <li><a href="#contact" class="nav-btn">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero / Introduction -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <span class="badge">Next-Generation Mobility</span>
+      <h1>Redefining Intelligent Electric Flight & Drive</h1>
+      <p>
+        Pioneering zero-emission autonomous vehicles, advanced battery chemistry, 
+        and high-efficiency electric powertrains for sustainable ground and air transport.
+      </p>
+      <div class="hero-actions">
+        <a href="#fleet" class="btn btn-primary">Explore Fleet</a>
+        <a href="#technology" class="btn btn-secondary">Our Technology</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <main>
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="section-title">
+        <h2>About Aether Dynamics</h2>
+        <p>Engineering sustainable transport with autonomous intelligence</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card">
+          <h3>The Vision</h3>
+          <p>
+            Founded to eliminate urban congestion and transport emissions, 
+            Aether Dynamics builds high-performance electric platforms powered by renewable energy systems.
+          </p>
+        </div>
+        <div class="about-card">
+          <h3>Our Mission</h3>
+          <p>
+            Deliver emission-free transit architectures through breakthroughs in 
+            energy density, edge-computed neural networks, and aerodynamic carbon composite designs.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Product Lineup / Fleet Section -->
+    <section id="fleet" class="section">
+      <div class="section-title">
+        <h2>Active Vehicle Lineup</h2>
+        <p>Built for efficiency, engineered for performance</p>
+      </div>
+
+      <div class="fleet-grid">
+        <article class="fleet-card">
+          <img src="https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=700&q=80" alt="Aether GT Coupe" />
+          <div class="card-content">
+            <span class="category">Flagship GT</span>
+            <h3>Aether GT Coupe</h3>
+            <p>Dual-motor all-wheel drive, 0–100 km/h in 2.4s with 680 km estimated range.</p>
+            <ul class="specs">
+              <li><strong>0-100 km/h:</strong> 2.4s</li>
+              <li><strong>Range:</strong> 680 km</li>
+              <li><strong>Top Speed:</strong> 260 km/h</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="fleet-card">
+          <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=700&q=80" alt="Aether Horizon SUV" />
+          <div class="card-content">
+            <span class="category">Utility SUV</span>
+            <h3>Aether Horizon SUV</h3>
+            <p>Tri-motor intelligent chassis with adaptive air suspension and semi-autonomous pilot.</p>
+            <ul class="specs">
+              <li><strong>Seating:</strong> 7 Passengers</li>
+              <li><strong>Range:</strong> 610 km</li>
+              <li><strong>Towing:</strong> 3,500 kg</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="fleet-card">
+          <img src="https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?auto=format&fit=crop&w=700&q=80" alt="Aether Sky eVTOL" />
+          <div class="card-content">
+            <span class="category">Aerospace</span>
+            <h3>Aether Sky eVTOL</h3>
+            <p>All-electric vertical take-off and landing regional aircraft for point-to-point urban transit.</p>
+            <ul class="specs">
+              <li><strong>Capacity:</strong> 4 Seats</li>
+              <li><strong>Cruise:</strong> 240 km/h</li>
+              <li><strong>Range:</strong> 250 km</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Services / Technology Section -->
+    <section id="technology" class="section">
+      <div class="section-title">
+        <h2>Proprietary Systems</h2>
+        <p>Every component is engineered in-house</p>
+      </div>
+
+      <div class="tech-grid">
+        <div class="tech-box">
+          <h4>Solid-State Cell Matrices</h4>
+          <p>800V silicon-carbide architecture offering 10% to 80% charge times under 12 minutes.</p>
+        </div>
+        <div class="tech-box">
+          <h4>Neural Pilot Autonomy</h4>
+          <p>Full 360-degree LiDAR, radar, and neural vision stack computing local driving decisions in real-time.</p>
+        </div>
+        <div class="tech-box">
+          <h4>Grid-to-Vehicle Bi-Directional Power</h4>
+          <p>Use your vehicle as a resilient residential battery pack during peak power cuts.</p>
+        </div>
+        <div class="tech-box">
+          <h4>Aerospace Carbon Architectures</h4>
+          <p>Monocoque chassis designed to minimize curb weight while exceeding global safety standards.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+      <div class="section-title">
+        <h2>Get in Touch</h2>
+        <p>Schedule a private test experience or discuss fleet inquiries</p>
+      </div>
+
+      <div class="contact-container">
+        <div class="contact-details">
+          <h3>Headquarters</h3>
+          <p>📍 Aether Innovation Campus, Tech District, Bengaluru, Karnataka, India</p>
+          <p>📧 Email: <a href="mailto:contact@aetherdynamics.io">contact@aetherdynamics.io</a></p>
+          <p>📞 Phone: <a href="tel:+918023456789">+91 80 2345 6789</a></p>
+          <p>🌐 Web: <a href="#">www.aetherdynamics.io</a></p>
+        </div>
+
+        <form class="contact-form" onsubmit="event.preventDefault(); alert('Message sent successfully!');">
+          <input type="text" placeholder="Full Name" required />
+          <input type="email" placeholder="Email Address" required />
+          <textarea rows="4" placeholder="Your Inquiry or Test Drive Request" required></textarea>
+          <button type="submit" class="btn btn-primary">Submit Request</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <p> 2026 Aether Dynamics Technologies Inc. All rights reserved.</p>
+      <div class="social-links">
+        <a href="#">X / Twitter</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
